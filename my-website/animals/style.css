@@ -1,0 +1,152 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap'); */
+
+
+body {
+	color: black;
+	/*font-family: 'Ms Madi', cursive;*/
+	margin: 0;
+	background-color:#995922
+}
+header{
+	margin:20px auto;
+}
+nav{
+	background-color: #144f17;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin:10px;
+}
+nav li{
+	display: inline;
+	font-size: 20px;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+ color: black;
+}
+nav a:visited{
+	color: black;
+} 
+nav a:hover{
+	color: gray;
+} 
+nav a:active{
+	color: gray;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+	text-shadow:1px 1px #1f5e0f;
+}
+.row{
+	padding-bottom: 50px;
+}
+.header-image{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+    height: auto;
+}
+p{
+	text-align: left;
+	font-size: 20px;
+	color:#252624;
+	text-shadow: 1px 1px #000000;
+	margin:0px 0px;
+}
+i.fa{
+	font-size:100px;
+}
+.col-sm-3{
+	text-align: center;
+}
+.col-sm-6 p{
+	text-align: left;
+	color:black;
+	text-shadow: none;
+	font-size:16px;
+}
+footer {
+	font-family: verdana;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #144f17;
+}
+.footerwidth{
+	width:1000px;
+	margin:40px auto;
+}
+footer .row{
+	padding: 0px;
+}
+footer i.fa{
+	font-size: 16px;
+}
+.copyright{
+	text-align: center;
+}
+/* gallery css */
+
+.gallery .preview{
+    width:100%
+    height:auto;
+    padding-bottom: 10px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:90px;
+    height:67px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+    }
+}

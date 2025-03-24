@@ -1,0 +1,120 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap'); */
+
+
+body {
+	color: black;
+	/*font-family: 'Ms Madi', cursive;*/
+	margin: 0;
+	background-color: lightgrey;
+}
+footer {
+	color: green;
+	font-family: verdana;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	background-color: black;
+}
+nav{
+	background-color: black;
+	border-top: 2px solid darkgray;
+	border-bottom: 2px solid darkgray;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin:10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 50px;
+	font-size:25px;
+}
+nav a:link{
+ color: lightblue;
+}
+nav a:visited{
+	color: purple;
+} 
+nav a:hover{
+	color: gray;
+} 
+nav a:active{
+	color: gray;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+
+}
+header{
+	margin:25px auto;
+
+}
+h1{
+	text-align: center;
+	font-size:50px;
+}
+
+.col-sm-4 h3{
+	text-align:center;
+}
+.col-sm-3 a{
+	font-size: 20px;
+}
+.col-sm-12{
+	text-align: left;
+}
+
+i.fa{
+	font-size:100px;
+	color:lightblue;
+}
+blockquote{
+	text-align:center;
+}
+.home-hero{
+	background-image: url(images/header.jpg);
+	max-width: 1200px;
+	height:475px;
+	background-size: cover;
+	background-position: center;
+}
+.home-hero h2{
+	padding-left:20px;
+	padding-top: 20px;
+}
+.home-hero h3{
+	padding-left: 20px;
+}
+
+/*link visit colors*/
+a:link{
+color: lightblue;
+}
+a:visited{
+color: lightblue;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+    }
+}

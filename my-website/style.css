@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color:#d2ace6;
+	background-color: #161830;
+}
+header{
+	background-color: #78bdfa;
+	color:black;
+	padding:20px 0px 20px 0px;
+	margin: 0px auto;
+}
+.header-image{
+	max-width: 100%;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+    height: auto;
+}
+footer {
+	background-color: black;
+	padding:20px 0px 20px 0px;
+}
+.foot-row{
+	max-width: 1000px;
+	margin:0 auto;
+}
+
+
+
+
+nav{
+	background-color: black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin:10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+ color: white;
+}
+nav a:visited{
+	color: white;
+} 
+nav a:hover{
+	color: gray;
+} 
+nav a:active{
+	color: gray;
+}
+
+
+
+.hero-image{
+	background-image:url(images/heropads.png);
+	background-size:cover;
+	min-height: 200px;
+	color:white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding:50px 0px 0px 0px;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	
+}
+.colorado{
+	display: block;
+	float:left;
+}
+.colorado-credit{
+	text-align: center;
+	padding-top: 170px;
+}
+.link-row{
+	text-align:center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin:40px auto;
+	padding:40px 0px 40px 0px;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+    padding-bottom: 10px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:160px;
+    height:120px;
+    margin: 16px 0px 18px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+i.fa{
+	font-size:60px;
+}
+.col-sm-6 i.fa{
+	font-size:20px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 0px;
+}
+.mycopy{
+	text-align: center;
+	background-color: #78bdfa;
+	color:black;
+}
+.resume{
+	max-width: 800px;
+	margin:20px auto;
+}
+.resume h3{
+	text-decoration: underline;
+}
+.website-previews{
+	padding:20px 0px 20px 0px;
+}
+
+.pg4-under h2{
+	text-decoration: underline;
+}
+form h2{
+	text-decoration: none;
+}
+
+table{
+	border-spacing: 0;
+	margin: 0 auto;
+
+}
+th, td{
+	padding: 10px;
+	border: 1px solid black;
+}
+th{
+	background-color: #0e449c;
+	color: black;
+}
+td{
+	background-color: #1b1c1f;
+	color: white;
+}
+.table-row{
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+
+form{
+	background-color: #1b1c1f;
+	border: 1px solid gray;
+	padding:  10px 30px;
+	max-width: 400px;
+	margin: 0 auto;
+	color:white;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+	width:80%;
+}
+input[type=submit]{
+	display: block;
+	background-color: gray;
+}
+.form-row{
+	max-width: 800px;
+	margin:0px auto;
+	padding-top:40px;
+}
+.media-row{
+	max-width: 800px;
+	margin:0px auto;
+	padding-top:40px;
+}
+iframe{
+	width:100%;
+
+}
+
+a:link{
+color:#d2ace6;
+}
+a:visited{
+color:#d2ace6;
+}
+a:hover{
+color: white;
+}
+a:active{
+color: black;
+}
+
+/* CSS Adjustments for Tablets 
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 1.8em;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+    }
+}
+*/
+
+/* CSS Adjustments for Smartphones */
